@@ -1,2 +1,2 @@
 #!/bin/bash
-xdg-open StarWars_IV_episode.mov
+telnet towel.blinkenlights.nl
