@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod U+x hello
+chmod o+r hello
