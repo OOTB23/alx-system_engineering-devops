@@ -1,1 +1,1 @@
-shell basics project
+script that prints “Hello, World” 
