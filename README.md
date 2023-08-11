@@ -1,1 +1,1 @@
- This project is a start of C programming study
+ First C Project 
