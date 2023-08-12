@@ -4,11 +4,11 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * Enery point - Main function
+ * main - Entry point
  *
  * Description: indicate number sign
  *
- * Return - (0) on sucess
+ * Return : Always (sucess)
  */
 
 int main(void)
