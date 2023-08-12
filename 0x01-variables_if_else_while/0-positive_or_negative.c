@@ -3,6 +3,11 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
+/** 
+ * Enery point - Main function
+ * Description - indicate number sign
+ * return - (0) on sucess
+ */
 int main(void)
 {
 	int n;
@@ -12,16 +17,16 @@ int main(void)
 	/* your code goes there */
 	if (n<0)
 	{
-	    printf("%d is negative",n);
+	    printf("%d is negative\n",n);
 	}
 	
 	else if (n>0)
 	{
-	    printf("%d is positive",n);
+	    printf("%d is positive\n",n);
 	}
 	else
 	{ 
-	    printf("%d is zero",n);
+	    printf("%d is zero\n",n);
 	}
 	return (0);
 }
