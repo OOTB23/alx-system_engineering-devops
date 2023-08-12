@@ -5,8 +5,10 @@
 /* betty style doc for function main goes there */
 /**
  * Enery point - Main function
- * Description - indicate number sign
- * return - (0) on sucess
+ *
+ * Description : indicate number sign
+ *
+ * Return - (0) on sucess
  */
 
 int main(void)
