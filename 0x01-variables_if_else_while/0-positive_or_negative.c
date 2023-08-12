@@ -8,7 +8,7 @@
  *
  * Description: indicate number sign
  *
- * Return : Always (sucess)
+ * Return: Always 0 (sucess)
  */
 
 int main(void)
