@@ -6,7 +6,7 @@
 /**
  * Enery point - Main function
  *
- * Description : indicate number sign
+ * Description: indicate number sign
  *
  * Return - (0) on sucess
  */
