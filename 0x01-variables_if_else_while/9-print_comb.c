@@ -3,23 +3,28 @@
 /**
  * main - entery point
  *
- * describtion: count from 0 to 9 with speical format
+ * describtion: function that print alphabit
  *
  * Return: (0) Always success
  */
 
 int main(void)
 {
-	int c = 48;
+	int c;
 
-	do {
+	for (c = 48; c <= 57; c++)
+	{
 		putchar(c);
-		putchar(44);
-		putchar(32);
-		c++;
-	} while (c < 57);
-
-	putchar(57);
+		if (c == 57)
+		{
+			putchar('\n');
+		}
+		else
+		{
+			putchar(44);
+			putchar(32);
+		}
+	}
 
 return (0);
 
