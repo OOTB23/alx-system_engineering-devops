@@ -1,2 +1,3 @@
+#ifndef HEADER_FILE
 #include "_putchar.c"
-int _putchar(char);
+#endif
