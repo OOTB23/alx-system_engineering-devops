@@ -2,7 +2,6 @@
 
 /**
  * print_alphabet - writes the alphabet
- * @ch: The character to print
  *
  * Return: nothing.
  *
