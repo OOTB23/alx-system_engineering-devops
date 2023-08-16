@@ -12,9 +12,9 @@ int main(void)
 	{
 		for (d3 = 0; d3 <= 9; d3++)
 		{
-			for (d2 = d4; d2 <= 9; d2++)
+			for (d2 = 0; d2 <= 9; d2++)
 			{
-				for (d1 = d3; d1 <= 9; d1++)
+				for (d1 = 0; d1 <= 9; d1++)
 				{
 					if ((d1 == d3) && (d2 == d4))
 					{}
