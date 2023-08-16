@@ -8,14 +8,13 @@
  */
 int main(void)
 {
-	char s[] = "_putchar";
+	char s[] = "_putchar\n";
 	int n;
 
 	for (n = 0; n < 9; n++)
 	{
 		_putchar(s[n]);
 	}
-	_putchar('\n');
 
 	return (0);
 }
