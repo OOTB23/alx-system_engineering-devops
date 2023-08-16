@@ -1,8 +1,10 @@
+#include "main.h"
+
 /**
  * print_alphabet - writes the alphabet using _putchar function
  * @c: The character to print
  *
- * Return: 0 always success.
+ * Return: nothing.
  * 
  */
 void print_alphabet(void)
