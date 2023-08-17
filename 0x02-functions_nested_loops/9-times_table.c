@@ -8,21 +8,17 @@
 
 void times_table(void)
 {
-	int d1,d2;
+	int d1, d2, d3;
 
-	for (d2 =0;d2 <=9 ; d++)
+	for (d2 = 0; d2 <= 9 ; d++)
 	{
 		for (d1 = 0; d1 <= 9; d1++)
 		{
-		d2 = d1 * 9;
-		_putchar(d2 + 48);
-		_putchar(44);
-		_putchar(58);
-		_putchar(d2 + 48);
-		_putchar(d1 + 48);
-		_putchar('\n');
+			d3 = d1 * d2;
+			_putchar(d3 + 48);
+			_putchar(44);
+			_putchar(32);
 		}
+		_putchar('\n');
 	}
-		
-	
 }
