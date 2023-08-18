@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers - writes the alphabet
+ * print_numbers - writes the number 0-9
  *
  * Return: nothing.
  *
