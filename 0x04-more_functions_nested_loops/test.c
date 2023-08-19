@@ -14,22 +14,22 @@ int main(void)
 {*/
 	int n;
 	scanf("%d",&n);
-	int x;
+	int c = 0;
+	int s;
 
         while (n > 0)
         {
-                x = n;
-                putchar(92);
-                putchar('\n');
-                while (x > 1)
+		s = c ;
+		c = c + 1;
+                while (s > 0)
                 {
-                        puchar(32);
-                        x--;
+                        putchar(32);
+                        s--;
                 }
-
+		putchar(92 );
+		putchar ('\n');
                 n--;
         }
-        putchar('\n');
 
 
 	return 0;
