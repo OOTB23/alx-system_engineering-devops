@@ -1,18 +1,23 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_numbers - writes the number 0-9
  *
  * Return: nothing.
  *
  */
-void print_numbers(void)
+int main(void)
 {
+/**void print_numbers(void)
+{
+*/
 	int ch;
 
 	for (ch = 0; ch <= 9; ch++)
 	{
-		_putchar(ch + 48);
+		putchar(0 + 48);
 	}
-	_putchar('\n');
+	putchar('\n');
+
+return (0);
 }
