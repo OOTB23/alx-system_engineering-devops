@@ -14,17 +14,20 @@ int main(void)
 {*/
 	int n;
 	scanf("%d",&n);
-	while (n > 0)
+	int x;
+
+        while (n > 0)
         {
-                if (n == 1)
+                x = n;
+                putchar(92);
+                putchar('\n');
+                while (x > 1)
                 {
-                        putchar(92);
-                        break;
+                        puchar(32);
+                        x--;
                 }
-                        putchar(92);
-                        putchar('\n');
-                        putchar(32);
-                        n--;
+
+                n--;
         }
         putchar('\n');
 
