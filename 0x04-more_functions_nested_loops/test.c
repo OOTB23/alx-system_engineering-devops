@@ -13,24 +13,27 @@ int main(void)
 /*void more_numbers(void)
 {*/
 	int ch;
-        int i = 0;
-	int x;
-	scanf("%d",&x);
-	printf ("%d",(x % 10));
-	putchar('\n');
-        while (i < 10)
+	    int c = 0;
+        int s;
+	int n;
+	scanf("%d",&n);
+        while (n > 0)
         {
-                for (ch = 0; ch <= 14; ch++)
-                {
-                        if (ch > 9)
-			{
-				putchar(49);
-			}
-			putchar((ch % 10) + 48);
-                }
+                s = c;
+                c = c + 1;
 
-                putchar('\n');
-                i++;
+                while (s > 0)
+                {
+                        putchar(32);
+                        s--;
+                }
+                putchar(92);
+                if (n > 1)
+                {
+                        putchar('\n');
+                }
+                n--;
         }
+        putchar('\n');
 	return 0;
 }
