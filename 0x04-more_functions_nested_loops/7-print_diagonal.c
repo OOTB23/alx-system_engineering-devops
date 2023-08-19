@@ -22,7 +22,7 @@ void print_diagonal(int n)
 			s--;
 		}
 		_putchar(92);
-		if ( n == 1)
+		if ( n > 1)
 		{
 			_putchar('\n');
 		}
