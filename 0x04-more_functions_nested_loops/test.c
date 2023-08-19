@@ -19,14 +19,12 @@ int main(void)
                 if (n == 1)
                 {
                         putchar(92);
+                        break;
                 }
-                else
-                {
                         putchar(92);
                         putchar('\n');
                         putchar(32);
-                }
-                n--;
+                        n--;
         }
         putchar('\n');
 
