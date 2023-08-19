@@ -11,7 +11,7 @@ void more_numbers(void)
 	int ch;
 	int i = 0;
 
-	while (i <= 9)
+	while (i < 10)
 	{
 		for (ch = 0; ch <= 14; ch++)
 		{
@@ -21,7 +21,7 @@ void more_numbers(void)
 			}
 			else
 			{
-				_putchar(49);
+				_putchar(ch /10 + 48);
 				_putchar(ch % 10 + 48);
 			}
 		}
