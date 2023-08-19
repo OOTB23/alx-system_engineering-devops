@@ -12,25 +12,25 @@ int main(void)
 {
 /*void more_numbers(void)
 {*/
-	int n;
-	scanf("%d",&n);
-	int c = 0;
-	int s;
-
-        while (n > 0)
-        {
-		s = c ;
-		c = c + 1;
-                while (s > 0)
-                {
-                        putchar(32);
-                        s--;
-                }
-		putchar(92 );
-		putchar ('\n');
-                n--;
-        }
-
+	int ch;
+        int i = 0;
+	int x;
+	scanf("%d",&x);
+	printf ("%d",(x % 10));
 	putchar('\n');
+        while (i < 10)
+        {
+                for (ch = 0; ch <= 14; ch++)
+                {
+                        if (ch > 9)
+			{
+				putchar(49);
+			}
+			putchar((ch % 10) + 48);
+                }
+
+                putchar('\n');
+                i++;
+        }
 	return 0;
 }
