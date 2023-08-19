@@ -1,23 +1,37 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * print_numbers - writes the number 0-9
+ * more_numbers - writes the alphabet 10 times
  *
  * Return: nothing.
  *
  */
+
 int main(void)
 {
-/**void print_numbers(void)
-{
-*/
+/*void more_numbers(void)
+{*/
 	int ch;
+	int i = 0;
 
-	for (ch = 0; ch <= 9; ch++)
+	while (i <= 9)
 	{
-		putchar(0 + 48);
+		for (ch = 0; ch <= 14; ch++)
+		{
+			if (ch <= 9)
+			{
+				putchar(ch + 48);
+			}
+			else
+			{
+				putchar(49);
+				putchar((ch - 10) + 48);
+			}
+		}
+		putchar('\n');
+		i++;
 	}
-	putchar('\n');
+	return (0);
 
-return (0);
 }
