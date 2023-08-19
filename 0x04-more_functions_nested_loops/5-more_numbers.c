@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - writes the alphabet 10 times
+ * more_numbers - writes numbers fom 0 to 14
  *
  * Return: nothing.
  *
