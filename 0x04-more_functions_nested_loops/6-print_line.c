@@ -8,7 +8,6 @@
  */
 void print_line(int n)
 {
-	
 	while (n > 0)
 	{
 		_putchar(95);
@@ -16,4 +15,3 @@ void print_line(int n)
 	}
 	_putchar('\n');
 }
-	

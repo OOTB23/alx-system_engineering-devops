@@ -26,7 +26,7 @@ int main(void)
 			else
 			{
 				putchar(49);
-				putchar((ch - 10) + 48);
+				putchar(ch % 10 + 48);
 			}
 		}
 		putchar('\n');
