@@ -14,14 +14,12 @@ void print_diagonal(int n)
 		if (n == 1)
 		{
 			_putchar(92);
+			break;
 		}
-		else
-		{
 			_putchar(92);
 			_putchar('\n');
 			_putchar(32);
-		}
-		n--;
+			n--;
 	}
 	_putchar('\n');
 }
