@@ -18,7 +18,7 @@ void print_diagonal(int n)
 		while (x > 1)
 		{
 			_puchar(32);
-			x--
+			x--;
 		}
 
 		n--;
