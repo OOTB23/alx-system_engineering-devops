@@ -1,7 +1,9 @@
-include "main.h"
+#include "main.h"
 
 /**
- * print_most_numbers - writes most of the number 0-9
+ * print_most_nuumbers- function print the number 0-9 but 2 4
+ *
+ * Description: function to print numbers from 0-9 but 2 4
  *
  * Return: nothing.
  *
