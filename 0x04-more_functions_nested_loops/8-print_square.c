@@ -19,6 +19,8 @@ void print_square(int size)
 	{
 		while (y > 0)
 		{
+			x = size;
+
 			while (x > 0)
 			{
 				_putchar(35);
@@ -26,7 +28,6 @@ void print_square(int size)
 			}
 
 			_putchar('\n');
-			_putchar(35);
 			y--;
 		}
 	}

@@ -12,28 +12,29 @@ int main(void)
 {
 /*void more_numbers(void)
 {*/
-	int ch;
-	    int c = 0;
-        int s;
-	int n;
-	scanf("%d",&n);
-        while (n > 0)
-        {
-                s = c;
-                c = c + 1;
+	int size;
+	scanf("%d",&size);
+	int x = size;
+        int y = size;
 
-                while (s > 0)
-                {
-                        putchar(32);
-                        s--;
-                }
-                putchar(92);
-                if (n > 1)
-                {
-                        putchar('\n');
-                }
-                n--;
+        if (size <= 0)
+        {
+                putchar('\n');
         }
-        putchar('\n');
+        else
+        {
+                while (y > 0)
+                {
+                        x = size;
+			while (x > 0)
+                        {
+                                putchar(35);
+                                x--;
+                        }
+
+                        putchar('\n');
+                        y--;
+                }
+        }
 	return 0;
 }
