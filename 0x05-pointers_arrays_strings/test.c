@@ -11,13 +11,13 @@
 int main(void)
 {
 
-    int len;
+    char c;
 
     char *s;
-    s = "My first strlen!";
+    s = "My";
+    c = *(s+1);
 
-
-         puts(s);
+         putchar(c);
 	
     return (0);
 }
