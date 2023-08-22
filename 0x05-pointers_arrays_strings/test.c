@@ -17,7 +17,7 @@ int main(void)
     s = "My first strlen!";
 
 
-        len = strlen(s);
-	printf("%d \n" ,len);
-    return (len);
+         puts(s);
+	
+    return (0);
 }
