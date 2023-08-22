@@ -23,9 +23,9 @@ int main(void)
         {
                 len = len + 1;
         }
-        for (count = 0; count < len; count++)
+        for (count = 1; count < len; count++)
         {
-                putchar(*(s + (len - 1)));
+                putchar(*(s + (len - count)));
         }
 	
     return (0);
