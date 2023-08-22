@@ -10,11 +10,14 @@
  */
 int main(void)
 {
-	char str;
+
     int len;
 
-    str = 'm';
-   /* len = strlen(str);*/
-    printf("%c\n", str);
-    return (0);
+    char *s;
+    s = "My first strlen!";
+
+
+        len = strlen(s);
+	printf("%d \n" ,len);
+    return (len);
 }
