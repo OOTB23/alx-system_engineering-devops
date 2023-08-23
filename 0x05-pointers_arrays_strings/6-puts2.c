@@ -2,7 +2,7 @@
 /**
  * puts2 - write every other character
  *
- * @s: pointer to string to print
+ * @str: pointer to string to print
  *
  * Return: nothing.
  */
@@ -18,7 +18,7 @@ void puts2(char *str)
 
 	while (count < len)
 	{
-		_putchar(*str + count);
+		_putchar (*(str + count));
 		count = count + 2;
 	}
 }
