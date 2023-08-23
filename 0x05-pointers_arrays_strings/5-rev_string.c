@@ -21,6 +21,6 @@ void rev_string(char *s)
 	{
 		tmp = *(s + count);
 		*(s + count) = *(s + len - 1 - count);
-		*(s + len - 1 -count) = tmp;
+		*(s + len - 1 - count) = tmp;
 	}
 }
