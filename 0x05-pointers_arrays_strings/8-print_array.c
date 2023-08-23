@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 
 	for (count = 0; count < (n - 1); count++)
 	{
-		printf("%c, ", a[count]);
+		printf("%c, ", (a[count] + 48));
 	}
-	printf("%c\n", a[count]);
+	printf("%c\n", (a[count] + 48));
 }
