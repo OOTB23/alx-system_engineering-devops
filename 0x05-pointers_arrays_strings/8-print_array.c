@@ -10,18 +10,22 @@
  */
 void print_array(int *a, int n)
 {
-	int count;
+	int count = 0;
 
 	if (n > 1)
 	{
-		for (count = 0; count < (n - 1); count++)
+		for (; count < (n - 1); count++)
 		{
 			printf("%d, ", a[count]);
 		}
 		printf("%d\n", a[count]);
 	}
-	else
+	else if (n == 1)
 	{
 		printf("%d\n", a[count]);
 	}
+	else
+	{
+	}
 }
+
