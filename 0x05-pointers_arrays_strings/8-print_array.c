@@ -12,9 +12,16 @@ void print_array(int *a, int n)
 {
 	int count;
 
-	for (count = 0; count < (n - 1); count++)
+	if (n > 1)
 	{
-		printf("%d, ", a[count]);
+		for (count = 0; count < (n - 1); count++)
+		{
+			printf("%d, ", a[count]);
+		}
+		printf("%d\n", a[count]);
 	}
-	printf("%d\n", a[count]);
+	else
+	{
+		printf("%d\n", a[count]);
+	}
 }
