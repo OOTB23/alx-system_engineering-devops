@@ -15,18 +15,28 @@ int main(void)
     char c;
 
     char *s;
-    s = "hello";
-    int len = 0;
+	s = "hello";
+        int len = 0;
         int count;
+	char *tmp;
 
         while (*(s + len) != ('\0'))
         {
                 len = len + 1;
         }
-        for (count = 1; count < len; count++)
+
+       char *(tmp +( len + 1)) = ('\0');
+
+        for (count = 0; count <= len; count++)
         {
-                putchar(*(s + (len - count)));
+                *(tmp + len - count) = *(s + count);
         }
-	
+        for (count = 0; count <= len; count++)
+        {
+                *(s + count) = *(tmp + count);
+        }
+
+	printf("%d \n", len);
+	printf("%s \n", s);
     return (0);
 }
