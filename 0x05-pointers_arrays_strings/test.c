@@ -1,7 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
+/*#include <stdio.h>*/
 /**
  * print_triangle- print triangle
  * @size: size of square
@@ -14,7 +12,7 @@ int main(void)
 
     char c;
 
-    char *s;
+   /* char *s;
 	s = "hello";
         int len = 0;
         int count;
@@ -35,8 +33,12 @@ int main(void)
         {
                 *(s + count) = *(tmp + count);
         }
+*/
+	c = '0';
 
-	printf("%d \n", len);
-	printf("%s \n", s);
-    return (0);
+	int i;
+	i = (int)c;
+
+/*	printf("%d \n", i*2);*/
+    return (i);
 }
