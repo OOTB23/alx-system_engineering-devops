@@ -11,7 +11,7 @@ int _atoi(char *s)
 {
 	int len = 0;
 	int ndig = 0;
-	int ns = 0;
+	int ns = 1;
 	int count;
 	char *c;
 	int result = 0;
@@ -19,36 +19,26 @@ int _atoi(char *s)
 	c = s;
 	while (*(s + len) != ('\0'))
 	{
-		if (*(s + len) > '0' && *(s + len) < '9')
-		{
-			*(++c) = *(s + len);
-			ndig = ndig + 1;
-		}
 		if (*(s + len) == '-')
 		{
-			ns = ns + 1;
+			ns = ns * (-1);
 		}
-	}
+		while (*(s + len) > '0' && *(s + len) < '9')
+		{
+			result = result + (*(s + len) - 48 ) * (ndig * 10);
+			ndig = ndig + 1;
+		}
 
-	for (count = 0; count <= ndig; count++)
-	{
-		result = (*(c + count) * (count * 10)) + result;
-	}
-	if (ns / 2 == 0)
-	{
-		result = result;
-	}
-	else 
-	{
-		result = (result * -1);
-	}
-	if (ndig > 0 )
-	{ 
-		return (result);
-	}
-	else 
-	{
-		return (0);
-	}
-
+		if (ndig > 0 )
+		{
+			result = result * ns;
+			break;
+		}
+		else 
+		{
+			result = 0;
+		}
+	}	
+	return (result);
 }
+
