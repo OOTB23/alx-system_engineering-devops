@@ -4,6 +4,8 @@ int issep(char c);
 /**
  * cap_string- function to capitalize words
  *
+ * issep- function to determin seprators
+ *
  * @s: input string
  *
  * Return: string with case changed
@@ -28,6 +30,14 @@ char *cap_string(char *s)
 
 	return (s);
 }
+
+/**
+ * issep- functio to determine speerators
+ *
+ * @c: character to check
+ *
+ * Return: return sep int
+ */
 
 int issep(char c)
 {
