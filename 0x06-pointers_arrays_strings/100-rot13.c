@@ -11,8 +11,8 @@ char *rot13(char *str)
 {
 	int c = 0;
 	int i;
-	char src[] = "abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char dst[] = "nopqrstuvwxyzabcdefghigklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char src[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char dst[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	while (str[c] != '\0')
 	{
