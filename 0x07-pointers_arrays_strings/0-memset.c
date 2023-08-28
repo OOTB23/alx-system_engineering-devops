@@ -3,7 +3,7 @@
 /**
  * _memset- function to store in memory location
  *
- * @s: input path 
+ * @s: input path
  * @b: value to store
  * @n: number of mem locations
  *
